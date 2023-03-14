@@ -1,0 +1,77 @@
+.auth-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-wrapper .card {
+  max-width: 450px;
+  width: fit-content;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+#login-intro {
+  background-image: url(https://cdn.l-media.net/media/5647/43031/962271-43031-l-67123MuLE4aV.jpeg);
+  height: 100vh;
+}
+
+#register-intro {
+  background-image: url(https://live.staticflickr.com/1278/803909120_b9288ab3bf_b.jpg);
+  height: 100vh;
+}
+
+#home-intro {
+  background-image: url(https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/vancouverbc/vancouver-public-art-mini-guide_ad75d4cc-dd05-4ab5-8320-cd2df84e83f5.jpg);
+  height: 100vh;
+}
+
+#sites-intro {
+  background-image: url(https://vancouversnorthshore.com/wp3/wp-content/uploads/2020/01/35880-120850-1.jpg);
+  height: 25vh;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #image-heading {
+    margin-top: -58.59px;
+  }
+}
+
+.navbar {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  box-shadow: none;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+.site .card-body {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  overflow: hidden;
+}
+
+.site img{
+  object-fit: cover;
+}
+
+.site p {
+  flex: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: justify;
+}
+
+#sites-container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+li.page-item {
+  cursor: pointer !important;
+}
